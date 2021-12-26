@@ -51,8 +51,7 @@ class Menu():
 if __name__ == '__main__':
     pg.init()
     pg.display.set_caption('Wave of Zombies')
-    img = pg.image.load('/home/nastya/code/waveOfZombies/data/mozg.png')
-    pg.display.set_icon(img)
+    pg.display.set_icon(pg.image.load('/home/nastya/code/waveOfZombies/data/mozg.png'))
     size = width, height = 1280, 720
     screen = pg.display.set_mode(size)
 
